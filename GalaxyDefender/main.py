@@ -19,8 +19,8 @@ async def main():
     mixer.music.load('space.ogg')
     mixer.music.play()
     fire_sound = mixer.Sound('fire.ogg')
-    lost_sound = mixer.Sound("lost.wav")
-    win_sound = mixer.Sound("win.wav")
+    lost_sound = mixer.Sound("lost.ogg")
+    win_sound = mixer.Sound("win.ogg")
 
     font.init()
     font2 = font.Font(None, 36)
