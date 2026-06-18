@@ -103,8 +103,6 @@ async def main():
     win_text = font1.render('YOU WIN!', True, (255, 255, 255))
     lose_text = font1.render('YOU LOSE!', True, (180, 0, 0))
 
-    clock = pygame.time.Clock()
-
     while run:
         for e in event.get():
             if e.type == QUIT:
@@ -177,8 +175,7 @@ async def main():
             window.blit(text_ammo, (10, 110))
 
         display.update()
-        clock.tick(20)  # Sesuai time.delay(50) asli = 20 FPS
-        await asyncio.sleep(0)  # Required for pygbag to work in browser
+        await asyncio.sleep(0.05)  # 50ms delay = same as original time.delay(50)
 
 # Start the game
 asyncio.run(main())
