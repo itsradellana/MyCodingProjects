@@ -271,7 +271,7 @@ while run:
         if rel_time:
             now_time = timer()
             if now_time - last_time < 3:
-                reload_text = font2.render('sabar yaa lagi reload:)', 1, (150, 0, 0))
+                reload_text = font2.render('Reloading... (3s)', 1, (255, 255, 255))
                 window.blit(reload_text, (260, 460))
             else:
                 num_fire = 0
