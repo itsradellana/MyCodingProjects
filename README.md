@@ -13,9 +13,11 @@ A 2D space shooter built with Python and Pygame. Pilot a rocket, shoot down UFOs
 ## Demo
 
 <div align="center">
-  <p>
-    <video controls muted src="https://github.com/itsradellana/galaxy-defender/raw/main/demo.mp4" width="100%"></video>
-  </p>
+  <a href="https://github.com/itsradellana/galaxy-defender/raw/main/demo.mp4">
+    <img src="https://github.com/itsradellana/galaxy-defender/raw/main/galaxy.jpg" alt="Click to watch demo" width="600">
+  </a>
+  <br>
+  <i>Click the image to watch the gameplay demo</i>
 </div>
 
 > _Gameplay demo — rocket controls, UFO shooting, reload mechanic, and win condition._
