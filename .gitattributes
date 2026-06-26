@@ -1,0 +1,13 @@
+# Only show programming languages in GitHub stats
+
+# Assets (images, audio)
+GalaxyDefender/*.png linguist-vendored
+GalaxyDefender/*.jpg linguist-vendored
+GalaxyDefender/*.ogg linguist-vendored
+GalaxyDefender/*.wav linguist-vendored
+
+# Web build output
+GalaxyDefender/docs/** linguist-generated
+
+# Launch config
+*.json linguist-documentation
