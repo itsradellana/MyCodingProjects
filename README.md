@@ -1,211 +1,93 @@
-<div align="center">
+# Galaxy Defender
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ffb6c1&height=200&section=header&text=✧･ﾟ:*%20My%20Coding%20Projects%20*:･ﾟ✧&fontSize=45&fontColor=fff&fontAlignY=35&animation=fadeIn" width="100%"/>
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Pygame](https://img.shields.io/badge/pygame-CE-yellow)
+![Platform](https://img.shields.io/badge/platform-desktop-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-<br>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🌸-Welcome!-ffb6c1?style=flat-square&labelColor=ffe4e1" alt="welcome"/>
-  <img src="https://img.shields.io/badge/made%20with-💕-ffb6c1?style=flat-square&labelColor=ffe4e1" alt="love"/>
-  <img src="https://img.shields.io/badge/status-growing%20🌱-ffb6c1?style=flat-square&labelColor=ffe4e1" alt="status"/>
-</p>
-
-<br>
-
-<p>
-  <i>a cozy little corner for my coding adventures ✧˖°</i>
-  <br>
-  <i>games, experiments, and everything in between~ 🌸</i>
-</p>
-
-<br>
+A 2D space shooter built with Python and Pygame. Pilot a rocket, shoot down UFOs, dodge asteroids, and survive to reach a score of 10.
 
 ---
 
-<br>
+## Features
 
-## ˚ ༘♡ ·˚꒰ **projects** ꒱·˚ ༘♡
-
-<br>
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-### [🚀 Galaxy Defender][game-link]
-
-<img src="https://img.shields.io/badge/🎮-Play%20Now!-ffb6c1?style=for-the-badge&labelColor=ffe4e1" alt="play"/>
-<br>
-<br>
-<i>a space adventure~ blast UFOs, dodge asteroids, survive the galaxy!</i>
-
-<br>
-<br>
-<img src="https://img.shields.io/badge/Python-ffe4e1?style=flat-square&logo=python" alt="python"/>
-<img src="https://img.shields.io/badge/Pygame-ffb6c1?style=flat-square" alt="pygame"/>
-<img src="https://img.shields.io/badge/browser-playable-ffd1dc?style=flat-square" alt="web"/>
-
-</td>
-<td align="center" width="50%">
-
-### ⭐ coming soon...
-
-<img src="https://img.shields.io/badge/✨-new%20game%20loading...-ffb6c1?style=for-the-badge&labelColor=ffe4e1" alt="soon"/>
-
-<br>
-<br>
-<i>something cute's cooking... stay tuned! (｡•ᴗ•｡)♡</i>
-
-</td>
-</tr>
-</table>
-
-<br>
+- **Arcade shooting** — destroy UFOs with a 7-bullet magazine and a 3-second reload cooldown
+- **Two enemy types** — UFOs (score targets) and asteroids (obstacles)
+- **Lives & lost counter** — start with 3 lives; lose 1 on collision, game ends at 0 lives or 3 escaped UFOs
+- **Real-time HUD** — score, lives, lost count, and ammo at a glance
+- **Win/lose conditions** — score 10 to win, or defend against 3 escapes
+- **Sound & music** — background music, fire, win, and lose SFX
 
 ---
 
-<br>
+## Tech
 
-## ⋆｡°✩ **galaxy defender** ✩°｡⋆
+| Layer | Stack |
+|-------|-------|
+| Language | Python 3.8+ |
+| Framework | Pygame CE 2.6+ |
+| Audio | `pygame.mixer` (`.ogg`, `.wav`) |
+| Input | Keyboard (arrow keys + space/R) |
 
-<br>
+---
 
-<table align="center">
-<tr>
-<td>
-
-```
-     ★
-    ★  ★
-   ★  ★  ★
-      🚀
-   ▄▀▄▀▄▀▄
- ▄▀▄▀▄▀▄▀▄▀
-```
-
-</td>
-<td>
-
-> <sub>fly through space, shoot down UFOs, dodge deadly asteroids, and survive as long as you can~</sub>
-
-<br>
-
-[▶️ **play now in your browser!**][game-link]
-
-</td>
-</tr>
-</table>
-
-<br>
-
-### ♡ game details
-
-| | |
-|---|---|
-| **genre** | space shooter |
-| **language** | python |
-| **library** | pygame |
-| **web build** | pygbag (webassembly) |
-| **editor** | vs code |
-
-<br>
-
-### ♡ controls
-
-| key | action |
-|---|---|
-| `←` `→` `↑` `↓` | move spaceship |
-| `space` | shoot bullets 🔫 |
-| `r` | reload ammo 🔄 |
-
-<br>
-
-### ♡ how to win
-
-> destroy **10 UFOs** to win the game... but be careful!  
-> don't let **3 UFOs** slip past you, and watch out for those **asteroids** ☄️
-
-<br>
-
-### ♡ features
-
-<p>
-✦ smooth movement & shooting system<br>
-✦ reload mechanic with countdown<br>
-✦ score, life & ammo tracking<br>
-✦ asteroid obstacles<br>
-✦ win & lose conditions<br>
-✦ background music & sound effects<br>
-✦ cute reload message: <sub>"sabar yaa lagi reload:)"</sub> ♡<br>
-</p>
-
-<br>
-
-### ♡ run locally
+## Installation
 
 ```bash
-git clone https://github.com/itsradellana/MyCodingProjects.git
-cd MyCodingProjects/GalaxyDefender
-pip install pygame
+pip install pygame-ce
+```
+
+---
+
+## Run
+
+```bash
+git clone https://github.com/itsradellana/galaxy-defender.git
+cd galaxy-defender
 python shooter_game.py
 ```
 
-<br>
+All asset files (sprites and audio) must stay alongside `shooter_game.py`.
 
 ---
 
-<br>
+## Controls
 
-## ˚₊· ͟͟͞͞➳❥ **tech i love** ₊˚⊹♡
-
-<br>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-ffb6c1?style=for-the-badge&logo=python&logoColor=fff"/>
-  <img src="https://img.shields.io/badge/Pygame-ffe4e1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/VS%20Code-ffd1dc?style=for-the-badge&logo=visualstudiocode&logoColor=fff"/>
-  <img src="https://img.shields.io/badge/Git-f7d6e0?style=for-the-badge&logo=git&logoColor=fff"/>
-  <img src="https://img.shields.io/badge/GitHub-ffb6c1?style=for-the-badge&logo=github&logoColor=fff"/>
-</p>
-
-<br>
+| Key | Action |
+|-----|--------|
+| `←` / `→` / `↑` / `↓` | Move rocket |
+| `SPACE` | Fire bullet |
+| `R` | Reload (3s cooldown) |
 
 ---
 
-<br>
-
-<table align="center">
-<tr>
-<td align="center">
-
-### 🌷 *learning, growing, creating*
-
-<br>
+## Project Structure
 
 ```
-  ✦  coding  ✦
-     \  |  /
-   - - ☆ - -
-     /  |  \
-  ✦  gaming  ✦
+galaxy-defender/
+├── shooter_game.py    # Game logic (single file)
+├── README.md
+├── LICENSE
+├── galaxy.jpg         # Background
+├── rocket.png         # Player sprite
+├── ufo.png            # Enemy sprite
+├── asteroid.png       # Obstacle sprite
+├── bullet.png         # Projectile sprite
+├── space.ogg          # Background music
+├── fire.ogg           # Fire SFX
+├── win.wav            # Win SFX
+└── lost.wav           # Lose SFX
 ```
 
-<br>
-<sub>every line of code is a step forward 🌱</sub>
+---
 
-</td>
-</tr>
-</table>
+## License
 
-<br>
-<br>
+MIT License — see `LICENSE` file for details.
 
-<p align="center">
-  <sub>thank you for stopping by~ come back soon! (◕‿◕✿)</sub>
-  <br><br>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ffb6c1&height=120&section=footer" width="100%"/>
-</p>
+---
 
-</div>
+## About
 
-[game-link]: https://itsradellana.github.io/MyCodingProjects/GalaxyDefender/docs/
+Built as a learning project for Python and Pygame fundamentals: sprite management, collision detection, game loop architecture, and asset handling.
