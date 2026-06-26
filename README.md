@@ -12,9 +12,9 @@ A 2D space shooter built with Python and Pygame. Pilot a rocket, shoot down UFOs
 
 ## Demo
 
-<video src="demo.mov" controls width="100%"></video>
+[![Gameplay Demo](galaxy.jpg)](demo.mov)
 
-> _Gameplay demo — rocket controls, UFO shooting, reload mechanic, and win condition._
+> _Click the image to watch the gameplay demo — rocket controls, UFO shooting, reload mechanic, and win condition._
 
 ---
 
